@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Hello monachen | monachen的个人博客</title>
-<link rel="shortcut icon" href="https://monachen520.github.io/monachen.github.io//favicon.ico?v=1637207550612">
+<link rel="shortcut icon" href="https://monachen520.github.io/monachen.github.io//favicon.ico?v=1637224614600">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://monachen520.github.io/monachen.github.io//styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="Hello monachen | monachen的个人博客 - Atom Feed" href="https://monachen520.github.io/monachen.github.io//atom.xml">
@@ -24,7 +24,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://monachen520.github.io/monachen.github.io/">
-  <img class="avatar" src="https://monachen520.github.io/monachen.github.io//images/avatar.png?v=1637207550612" alt="">
+  <img class="avatar" src="https://monachen520.github.io/monachen.github.io//images/avatar.png?v=1637224614600" alt="">
   </a>
   <h1 class="site-title">
     monachen的个人博客
@@ -115,6 +115,32 @@
 
         
 
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '09e380b9110a83459623',
+    clientSecret: '8d243c5df5a8040f5733d87dff5188ecd3185786',
+    repo: 'https://monachen520.github.io/monachen.github.io/',
+    owner: 'monachen520',
+    admin: ['monachen520'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
         
 
         <div class="site-footer">
